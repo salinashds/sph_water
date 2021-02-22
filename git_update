@@ -1,3 +1,7 @@
+DIA=`date +"%d/%m/%Y"`
+HORA=`date +"%H:%M"`
+
+
 git add .
-git commit -m "..."
+git commit -m "update $DIA $HORA"
 git push origin main
